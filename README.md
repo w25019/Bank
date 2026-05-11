@@ -1,84 +1,5 @@
-# 銀行管理システム (Bank Management System)
-
-Javaで開発したコンソールベースの銀行管理システムです。
-このプロジェクトでは、口座作成、入金、出金、送金、口座情報の確認などを行うことができます。
-
-## 主な機能
-
-* 新しい口座の作成
-* 7桁の口座番号を自動生成
-* 入金
-* 出金
-* 口座間送金
-* 口座情報の表示
-* システム終了
-
-## 使用技術
-
-* Java
-* オブジェクト指向プログラミング (OOP)
-* LinkedList
-* BigDecimal
-* Scanner
-
-## ファイル構成
-
-```text
-Bank/
-│
-├── BankProgramming.java
-├── Bank.java
-├── Account.java
-```
-
-## 実行方法
-
-### コンパイル
-
-```bash
-javac BankProgramming.java Bank.java Account.java
-```
-
-### 実行
-
-```bash
-java BankProgramming
-```
-
-## 📸 Screenshots
-
-<table>
-  <tr>
-    <td align="center"><b>Home Page</b></td>
-    <td align="center"><b>About Page</b></td>
-  </tr>
-  <tr>
-    <td valign="top" align="center" style="height:300px;">
-      <img src="./home_page.png" style="max-width:100%; max-height:300px;">
-    </td>
-    <td valign="top" align="center" style="height:300px;">
-      <img src="./about_page.png" style="max-width:100%; max-height:300px;">
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><b>Contact Page</b></td>
-    <td align="center"><b>Login Page</b></td>
-  </tr>
-  <tr>
-    <td valign="top" align="center" style="height:300px;">
-      <img src="./contact_page.png" style="max-width:100%; max-height:300px;">
-    </td>
-    <td valign="top" align="center" style="height:300px;">
-      <img src="./login_page.png" style="max-width:100%; max-height:300px;">
-    </td>
-  </tr>
-</table>
 
 # 🏦 Bank Management System
-
-## 🔗 Project Link
-
-[Bank Management System を見る](https://github.com/w25019/Bank)
 
 ## 📝 概要
 
@@ -147,14 +68,16 @@ Javaで開発したコンソールベースの銀行管理システムです。
       <img src="./after transfer.png" style="max-width:100%; max-height:300px;">
     </td>
   </tr>
-
-
     <tr>
     <td align="center"><b>Incorrect withdraw</b></td>
+      <td align="center"><b>Exit</b></td>
   </tr>
   <tr>
     <td valign="top" align="center" style="height:300px;">
       <img src="./unavailable withdraw.png" style="max-width:100%; max-height:300px;">
+    </td>
+     <td valign="top" align="center" style="height:300px;">
+      <img src="./exit.png" style="max-width:100%; max-height:300px;">
     </td>
   </tr>
 </table>
